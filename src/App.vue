@@ -31,7 +31,7 @@
 
 
 <template>
-  <div class="container mt-5" style="width: 900px;">
+  <div class="container mt-5">
     <h1>Expense Tracker</h1>
     <AddTransaction @add-transaction="addTransaction" />
     <TransactionList :transactions="transactions" @delete-transaction="deleteTransaction" />
